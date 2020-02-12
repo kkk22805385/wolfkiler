@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004A6EA423D8363C00C23FA1 /* img_source in Resources */ = {isa = PBXBuildFile; fileRef = 004A6EA323D8363C00C23FA1 /* img_source */; };
+		004B534A23EAB55300095474 /* Result_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004B534923EAB55300095474 /* Result_view.swift */; };
+		004B534E23EBE39E00095474 /* WolfBasic_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004B534D23EBE39E00095474 /* WolfBasic_ViewController.swift */; };
+		004B535023EBE50100095474 /* WolfGun_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004B534F23EBE50100095474 /* WolfGun_ViewController.swift */; };
+		004EF4E823D5A65E00C53BE7 /* RI_tvcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004EF4E623D5A65E00C53BE7 /* RI_tvcell.swift */; };
+		004EF4E923D5A65E00C53BE7 /* RI_tvcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 004EF4E723D5A65E00C53BE7 /* RI_tvcell.xib */; };
+		0056FA1923E91C500099BBD6 /* Select_board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0056FA1823E91C500099BBD6 /* Select_board.swift */; };
 		00A73F1323D1A76E00E34925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A73F1223D1A76E00E34925 /* AppDelegate.swift */; };
 		00A73F1523D1A76E00E34925 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A73F1423D1A76E00E34925 /* SceneDelegate.swift */; };
 		00A73F1723D1A76E00E34925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A73F1623D1A76E00E34925 /* ViewController.swift */; };
 		00A73F1A23D1A76E00E34925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A73F1823D1A76E00E34925 /* Main.storyboard */; };
 		00A73F1C23D1A77000E34925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A73F1B23D1A77000E34925 /* Assets.xcassets */; };
 		00A73F1F23D1A77000E34925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A73F1D23D1A77000E34925 /* LaunchScreen.storyboard */; };
+		00A73F2923D1A91F00E34925 /* RoleIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A73F2823D1A91F00E34925 /* RoleIntroduction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00A73F0F23D1A76E00E34925 /* wolfkiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wolfkiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		004A6EA323D8363C00C23FA1 /* img_source */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = img_source; sourceTree = SOURCE_ROOT; };
+		004B534923EAB55300095474 /* Result_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result_view.swift; sourceTree = "<group>"; };
+		004B534D23EBE39E00095474 /* WolfBasic_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfBasic_ViewController.swift; sourceTree = "<group>"; };
+		004B534F23EBE50100095474 /* WolfGun_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfGun_ViewController.swift; sourceTree = "<group>"; };
+		004EF4E623D5A65E00C53BE7 /* RI_tvcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RI_tvcell.swift; sourceTree = "<group>"; };
+		004EF4E723D5A65E00C53BE7 /* RI_tvcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RI_tvcell.xib; sourceTree = "<group>"; };
+		0056FA1823E91C500099BBD6 /* Select_board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_board.swift; sourceTree = "<group>"; };
+		00A73F0F23D1A76E00E34925 /* 狼人殺介紹.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "狼人殺介紹.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A73F1223D1A76E00E34925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00A73F1423D1A76E00E34925 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		00A73F1623D1A76E00E34925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,7 @@
 		00A73F1B23D1A77000E34925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A73F1E23D1A77000E34925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00A73F2023D1A77000E34925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A73F2823D1A91F00E34925 /* RoleIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleIntroduction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +64,7 @@
 		00A73F1023D1A76E00E34925 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00A73F0F23D1A76E00E34925 /* wolfkiler.app */,
+				00A73F0F23D1A76E00E34925 /* 狼人殺介紹.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +75,18 @@
 				00A73F1223D1A76E00E34925 /* AppDelegate.swift */,
 				00A73F1423D1A76E00E34925 /* SceneDelegate.swift */,
 				00A73F1623D1A76E00E34925 /* ViewController.swift */,
+				00A73F2823D1A91F00E34925 /* RoleIntroduction.swift */,
+				004EF4E623D5A65E00C53BE7 /* RI_tvcell.swift */,
+				004EF4E723D5A65E00C53BE7 /* RI_tvcell.xib */,
+				0056FA1823E91C500099BBD6 /* Select_board.swift */,
+				004B534D23EBE39E00095474 /* WolfBasic_ViewController.swift */,
+				004B534F23EBE50100095474 /* WolfGun_ViewController.swift */,
+				004B534923EAB55300095474 /* Result_view.swift */,
 				00A73F1823D1A76E00E34925 /* Main.storyboard */,
-				00A73F1B23D1A77000E34925 /* Assets.xcassets */,
 				00A73F1D23D1A77000E34925 /* LaunchScreen.storyboard */,
 				00A73F2023D1A77000E34925 /* Info.plist */,
+				00A73F1B23D1A77000E34925 /* Assets.xcassets */,
+				004A6EA323D8363C00C23FA1 /* img_source */,
 			);
 			path = wolfkiler;
 			sourceTree = "<group>";
@@ -84,7 +108,7 @@
 			);
 			name = wolfkiler;
 			productName = wolfkiler;
-			productReference = 00A73F0F23D1A76E00E34925 /* wolfkiler.app */;
+			productReference = 00A73F0F23D1A76E00E34925 /* 狼人殺介紹.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A73F1F23D1A77000E34925 /* LaunchScreen.storyboard in Resources */,
+				004A6EA423D8363C00C23FA1 /* img_source in Resources */,
+				004EF4E923D5A65E00C53BE7 /* RI_tvcell.xib in Resources */,
 				00A73F1C23D1A77000E34925 /* Assets.xcassets in Resources */,
 				00A73F1A23D1A76E00E34925 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004B535023EBE50100095474 /* WolfGun_ViewController.swift in Sources */,
+				0056FA1923E91C500099BBD6 /* Select_board.swift in Sources */,
 				00A73F1723D1A76E00E34925 /* ViewController.swift in Sources */,
+				00A73F2923D1A91F00E34925 /* RoleIntroduction.swift in Sources */,
 				00A73F1323D1A76E00E34925 /* AppDelegate.swift in Sources */,
+				004B534E23EBE39E00095474 /* WolfBasic_ViewController.swift in Sources */,
+				004B534A23EAB55300095474 /* Result_view.swift in Sources */,
+				004EF4E823D5A65E00C53BE7 /* RI_tvcell.swift in Sources */,
 				00A73F1523D1A76E00E34925 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +324,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsu.wolfkiler;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "狼人殺介紹";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsu.wolfkiler;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "狼人殺介紹";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
