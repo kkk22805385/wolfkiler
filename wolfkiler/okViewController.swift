@@ -15,7 +15,6 @@ class okViewController: UIViewController {
 print(12223)
         print(222222)
         print(33456)
-        print("wwwww")
         // Do any additional setup after loading the view.
     }
     
