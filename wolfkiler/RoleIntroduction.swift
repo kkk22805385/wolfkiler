@@ -10,6 +10,8 @@ import UIKit
 
 class RoleIntroduction: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
+    
+    
     @IBOutlet weak var job_lab: UILabel!
     @IBOutlet weak var backview: UIView!
     @IBOutlet weak var mytable: UITableView!
