@@ -14,6 +14,7 @@ class okViewController: UIViewController {
         super.viewDidLoad()
 print(12223)
         print(222222)
+        print(33456)
         // Do any additional setup after loading the view.
     }
     
