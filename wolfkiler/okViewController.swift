@@ -13,6 +13,7 @@ class okViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 print(12223)
+        print(222222)
         // Do any additional setup after loading the view.
     }
     
