@@ -1,5 +1,5 @@
 //
-//  testViewController.swift
+//  okViewController.swift
 //  wolfkiler
 //
 //  Created by aa on 2020/2/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class testViewController: UIViewController {
+class okViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
