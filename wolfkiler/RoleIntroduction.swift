@@ -26,12 +26,12 @@ class RoleIntroduction: UIViewController,UITableViewDelegate, UITableViewDataSou
         mytable.separatorStyle = .none
         mytable!.register(UINib(nibName: "RI_tvcell", bundle: nil), forCellReuseIdentifier: "cell")
 
-        // Do any additional setup after loading the view.
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return god.count
     }
     
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell :RI_tvcell = tableView.dequeueReusableCell(withIdentifier: "cell") as! RI_tvcell
         cell.role_lab1?.text = god[indexPath.row]
