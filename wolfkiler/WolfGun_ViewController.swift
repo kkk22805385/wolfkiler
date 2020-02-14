@@ -179,6 +179,8 @@ class WolfGun_ViewController: UIViewController {
             let identity = propher_skill(num : selecnum)
             alert_action(title: "你選擇的玩家身份為:" + identity, message: "",type:1)
             
+            
+            
         }
         else if step == 10{
             calcu_job.append(selecnum)
