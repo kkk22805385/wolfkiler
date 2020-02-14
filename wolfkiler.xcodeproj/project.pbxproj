@@ -22,7 +22,7 @@
 		00A73F1F23D1A77000E34925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A73F1D23D1A77000E34925 /* LaunchScreen.storyboard */; };
 		00A73F2923D1A91F00E34925 /* RoleIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A73F2823D1A91F00E34925 /* RoleIntroduction.swift */; };
 		A248418D23F66C3500C2D576 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248418C23F66C3500C2D576 /* testViewController.swift */; };
-		A248418F23F66D1700C2D576 /* 1112.png in Resources */ = {isa = PBXBuildFile; fileRef = A248418E23F66D1700C2D576 /* 1112.png */; };
+		A248419123F66DD500C2D576 /* ok_qqa.png in Resources */ = {isa = PBXBuildFile; fileRef = A248419023F66DD500C2D576 /* ok_qqa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,7 @@
 		00A73F2023D1A77000E34925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A73F2823D1A91F00E34925 /* RoleIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleIntroduction.swift; sourceTree = "<group>"; };
 		A248418C23F66C3500C2D576 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
-		A248418E23F66D1700C2D576 /* 1112.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1112.png; sourceTree = SOURCE_ROOT; };
+		A248419023F66DD500C2D576 /* ok_qqa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok_qqa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				0056FA1823E91C500099BBD6 /* Select_board.swift */,
 				004B534D23EBE39E00095474 /* WolfBasic_ViewController.swift */,
 				004B534F23EBE50100095474 /* WolfGun_ViewController.swift */,
-				A248418E23F66D1700C2D576 /* 1112.png */,
+				A248419023F66DD500C2D576 /* ok_qqa.png */,
 				004B534923EAB55300095474 /* Result_view.swift */,
 				00A73F1823D1A76E00E34925 /* Main.storyboard */,
 				00A73F1D23D1A77000E34925 /* LaunchScreen.storyboard */,
@@ -155,12 +155,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A248418F23F66D1700C2D576 /* 1112.png in Resources */,
 				00A73F1F23D1A77000E34925 /* LaunchScreen.storyboard in Resources */,
 				004A6EA423D8363C00C23FA1 /* img_source in Resources */,
 				004EF4E923D5A65E00C53BE7 /* RI_tvcell.xib in Resources */,
 				00A73F1C23D1A77000E34925 /* Assets.xcassets in Resources */,
 				00A73F1A23D1A76E00E34925 /* Main.storyboard in Resources */,
+				A248419123F66DD500C2D576 /* ok_qqa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
