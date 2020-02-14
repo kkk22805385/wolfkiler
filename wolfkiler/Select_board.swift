@@ -52,6 +52,10 @@ class Select_board: UIViewController,UITableViewDelegate, UITableViewDataSource 
             }
         }
         if segue.identifier == "unwind_WolfGun" {
+            
+            
+            
+            
             if let indexPath = mytable.indexPathForSelectedRow{
                 let vc = segue.destination as! WolfGun_ViewController
                 vc.board = indexPath.row + 1
