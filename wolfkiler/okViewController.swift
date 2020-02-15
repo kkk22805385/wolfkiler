@@ -13,8 +13,8 @@ class okViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(2222)
-print(111232123)
-        print(54321)
+        print(111232123)
+        print("company")
         // Do any additional setup after loading the view.
     }
     
