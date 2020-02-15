@@ -22,7 +22,7 @@ class RoleIntroduction: UIViewController,UITableViewDelegate, UITableViewDataSou
     var wolf_desc = ["",""]
     var common = ["平民","老流氓","野孩子"]
     var common_desc = ["",""]
-    
+    var bbb = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         mytable.separatorStyle = .none
