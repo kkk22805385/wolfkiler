@@ -12,10 +12,9 @@ class okViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(2222)
-        print(111232123)
         print("company")
         print("mymac")
+        print("hellow")
         // Do any additional setup after loading the view.
     }
     
