@@ -12,8 +12,7 @@ class okViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-print(12223)
-        print("wwwww")
+
         print(54321)
         print(54321)
         print(54321)
