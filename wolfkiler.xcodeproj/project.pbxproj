@@ -20,7 +20,6 @@
 		00A73F1C23D1A77000E34925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A73F1B23D1A77000E34925 /* Assets.xcassets */; };
 		00A73F1F23D1A77000E34925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A73F1D23D1A77000E34925 /* LaunchScreen.storyboard */; };
 		00A73F2923D1A91F00E34925 /* RoleIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A73F2823D1A91F00E34925 /* RoleIntroduction.swift */; };
-		00B9C4BC23F6909B00E532C9 /* okViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B9C4BB23F6909B00E532C9 /* okViewController.swift */; };
 		00B9C4BE23F7845A00E532C9 /* img_source in Resources */ = {isa = PBXBuildFile; fileRef = 00B9C4BD23F7845A00E532C9 /* img_source */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		00A73F1E23D1A77000E34925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00A73F2023D1A77000E34925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A73F2823D1A91F00E34925 /* RoleIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleIntroduction.swift; sourceTree = "<group>"; };
-		00B9C4BB23F6909B00E532C9 /* okViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = okViewController.swift; sourceTree = "<group>"; };
 		00B9C4BD23F7845A00E532C9 /* img_source */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img_source; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +75,6 @@
 				00A73F1223D1A76E00E34925 /* AppDelegate.swift */,
 				00A73F1423D1A76E00E34925 /* SceneDelegate.swift */,
 				00A73F1623D1A76E00E34925 /* ViewController.swift */,
-				00B9C4BB23F6909B00E532C9 /* okViewController.swift */,
 				00A73F2823D1A91F00E34925 /* RoleIntroduction.swift */,
 				004EF4E623D5A65E00C53BE7 /* RI_tvcell.swift */,
 				004EF4E723D5A65E00C53BE7 /* RI_tvcell.xib */,
@@ -169,7 +166,6 @@
 			files = (
 				004B535023EBE50100095474 /* WolfGun_ViewController.swift in Sources */,
 				0056FA1923E91C500099BBD6 /* Select_board.swift in Sources */,
-				00B9C4BC23F6909B00E532C9 /* okViewController.swift in Sources */,
 				00A73F1723D1A76E00E34925 /* ViewController.swift in Sources */,
 				00A73F2923D1A91F00E34925 /* RoleIntroduction.swift in Sources */,
 				00A73F1323D1A76E00E34925 /* AppDelegate.swift in Sources */,
