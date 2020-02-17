@@ -9,7 +9,7 @@
 import UIKit
 
 class okViewController: UIViewController {
-
+    var ac = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         print("company")
